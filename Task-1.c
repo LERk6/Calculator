@@ -11,18 +11,18 @@ int main() {
     double a,b,sum;
 
     printf("Ведите A: ");
-    scanf("%Lf",&a);
+    scanf("%lf",&a);
     printf("Введите B: ");
-    scanf("%Lf",&b);
+    scanf("%lf",&b);
 
     sum=a+b;
-    printf("%Lf + %Lf = %Lf\n", a,b,sum);
+    printf("%lf + %lf = %lf\n", a,b,sum);
     sum=a-b;
-    printf("%Lf - %Lf = %Lf\n", a,b,sum);
+    printf("%lf - %lf = %lf\n", a,b,sum);
     sum=a*b;
-    printf("%Lf * %Lf = %Lf\n", a,b,sum);
+    printf("%lf * %lf = %lf\n", a,b,sum);
     sum=a/b;
-    printf("%Lf : %Lf = %Lf\n", a,b,sum);
+    printf("%lf : %lf = %lf\n", a,b,sum);
 
     system("pause");
     return 0;
